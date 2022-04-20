@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ByteBank.SistemaAgencia
 {
@@ -11,6 +7,7 @@ namespace ByteBank.SistemaAgencia
         static void Main(string[] args)
         {
             string nome = "Guilherme";
+            int quantidade = 50;
         }
     }
 }
