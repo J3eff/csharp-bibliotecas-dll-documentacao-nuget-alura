@@ -4,14 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9CBE74AE-7078-4500-9933-C8D0E5953E7B}</ProjectGuid>
+    <ProjectGuid>{C2175F0D-7024-465E-947F-C0FB51887A9C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ByteBank.Modelos</RootNamespace>
     <AssemblyName>ByteBank.Modelos</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,7 +46,6 @@
     <Compile Include="Funcionarios\Auxiliar.cs" />
     <Compile Include="Funcionarios\Desenvolvedor.cs" />
     <Compile Include="Funcionarios\Designer.cs" />
-    <Compile Include="Funcionarios\Diretor.cs" />
     <Compile Include="Funcionarios\Funcionario.cs" />
     <Compile Include="Funcionarios\FuncionarioAutenticavel.cs" />
     <Compile Include="Funcionarios\GerenteDeConta.cs" />
